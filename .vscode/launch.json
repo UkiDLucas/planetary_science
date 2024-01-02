@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:planetary_science}",
+            "name": "Debug planetary_science",
+            "program": "${workspaceFolder:planetary_science}/.build/debug/planetary_science",
+            "preLaunchTask": "swift: Build Debug planetary_science"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:planetary_science}",
+            "name": "Release planetary_science",
+            "program": "${workspaceFolder:planetary_science}/.build/release/planetary_science",
+            "preLaunchTask": "swift: Build Release planetary_science"
+        }
+    ]
+}

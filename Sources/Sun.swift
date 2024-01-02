@@ -35,6 +35,14 @@ class earth: planet {
 }
 
 
+let Mars_to_Earth_km    =  54605041.92  //km
+let rocket_speed        =  20000.00     // km/h
+var time_to_travel = Mars_to_Earth_km / rocket_speed
+print("Time to travel from Mars to Earth is \(time_to_travel/24) days")
+
+
+
+
 let Earth = earth()
 print(" Hello, the Earth  \(Earth.getAge() ) years old.")
 

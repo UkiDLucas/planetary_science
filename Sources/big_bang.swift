@@ -1,1 +1,1 @@
-let big_bang = 13.8e9 // years ago
+let big_bang = 13.787e9 // 13 billion years ago, ±0.020 billion years

@@ -19,18 +19,47 @@ struct FigletTool {
     q1()
     q2()
     q3()
+    q4()
   }
 }
 
 /**
+The cruise phase begins after the spacecraft separates from the rocket, 
+soon after launch. 
+The spacecraft departs Earth at a speed of 
+about 24,600 mph (about 39,600 kph). 
+The trip to Mars will take about seven months 
+and about 300 million miles (480 million kilometers). 
+During that journey, engineers have several opportunities 
+to adjust the spacecraft’s flight path, 
+to make sure its speed and direction are best 
+for arrival at Jezero Crater on Mars. 
+The first tweak to the spacecraft’s flight path happens 
+about 15 days after launch.
+https://mars.nasa.gov/mars2020/timeline/cruise/
+*/
+func q4() {
+  let distanceToMars = 480000000.0 // km
+  let speedOfSpacecraft = 39600.0 // km/h
+  let time = distanceToMars / speedOfSpacecraft // hours
+  print("It takes \(time/24 ) days to reach Mars from Earth.")
+  print("It takes \(time/(24*30.4) ) months to reach Mars from Earth.")
+}
+
+
+
+/**
 How long does it take light to reach the center of galaxy?
+hint: Answer should be ~ 24,000 years
 */
 func q3() {
+  let distanceToCenterOfGalaxy = 25800.0 // light-years
     let speedOfLight = 299792458.0 // m/s
-    let galaxy_diameter_parsec = 30000.0
-    let galaxy_diameter_meters = galaxy_diameter_parsec * 3.08567758e16
-    let time = galaxy_diameter_meters/2 / speedOfLight
-    print("It takes \(time/(60*60*24*365*1000) ) thousand years to reach the center of galaxy from Earth.")
+    let distanceToCenterOfGalaxyMeters 
+      = distanceToCenterOfGalaxy * 9.461e15 // meters
+    let time = distanceToCenterOfGalaxyMeters / speedOfLight
+
+    print("It takes \(time/(60*60*24*365*1000) ) thousand years for light to reach the center of galaxy from Earth.")
 }
 
 /**

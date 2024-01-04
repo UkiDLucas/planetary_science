@@ -1,0 +1,1 @@
+let big_bang = 13.8e9 // years ago

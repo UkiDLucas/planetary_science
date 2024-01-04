@@ -1,2 +1,2 @@
 
-let diameter_parsec= 30000.0
+let diameter_parsec = 30000.0

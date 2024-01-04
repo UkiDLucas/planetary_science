@@ -12,7 +12,9 @@ import Figlet
 @main
 struct FigletTool {
   static func main() {
-    Figlet.say("Hello, Swift!")
+    Figlet.say("Hello, Solar System!")
+    let sun = Sun()
+    print(" Hello, Solar System is  \(sun.age) years old.")
   }
 }
 

@@ -1,4 +1,4 @@
-//import Foundation
+import Foundation // pow(), Double.pi
 //import solar_system
 
 //print(" Hello, Solar System!")
@@ -20,8 +20,45 @@ struct FigletTool {
     q2()
     q3()
     q4()
+    q5()
+    q6()
   }
 }
+
+/**
+If each galaxy contains a trillion stars, 
+how many stars are there in the visible universe?
+Hint: A 114.94 billion (10^11) galaxies in the observable universe.
+Hint: 10^23 = 100 billion trillion (10^11 * 10^12) stars in the visible universe.
+*/
+func q6() {
+  let numberOfGalaxiesBillion = 114.94 // 114.94 billion
+  let numberOfStarsInGalaxy = 1.0 // trillion
+  let numberOfStarsInUniverse = numberOfGalaxiesBillion * numberOfStarsInGalaxy
+  print("Q6: There are \(numberOfStarsInUniverse ) billion trillion (10^2 + 10^9 + 10^12 = 10^23) stars in the visible universe.")
+}
+
+/**
+The radius of the observable universe is 14 billion parsecs 
+or equivalently 14,000 Megaparsecs (Mpc). 
+The density of galaxies is 0.01 (Mpc)^-3.
+How many galaxies are there in the visible universe?
+Hint: A hundred billion (10^11) galaxies in the observable universe.
+*/
+func q5() {
+  let radiusOfUniverse = 14000.0 // Mpc
+  let densityOfGalaxies = 0.01 // (Mpc)^-3
+  
+
+  let volumeOfUniverse = 4/3 * Double.pi * pow(radiusOfUniverse, 3)
+  let numberOfGalaxies = densityOfGalaxies * volumeOfUniverse
+  print("Q5: There are \(numberOfGalaxies/(1_000_000) ) million galaxies in the visible universe.")
+  print("Q5: There are \(numberOfGalaxies/(1_000_000_000) ) billion galaxies in the visible universe.")
+  print("Q5: There are \(numberOfGalaxies/(1_000_000_000_000)) trillion galaxies in the visible universe.")
+
+}
+
+
 
 /**
 The cruise phase begins after the spacecraft separates from the rocket, 
@@ -42,8 +79,8 @@ func q4() {
   let distanceToMars = 480000000.0 // km
   let speedOfSpacecraft = 39600.0 // km/h
   let time = distanceToMars / speedOfSpacecraft // hours
-  print("It takes \(time/24 ) days to reach Mars from Earth.")
-  print("It takes \(time/(24*30.4) ) months to reach Mars from Earth.")
+  print("Q4: It takes \(time/24 ) days to reach Mars from Earth.")
+  print("Q4: It takes \(time/(24*30.4) ) months to reach Mars from Earth.")
 }
 
 
@@ -59,7 +96,7 @@ func q3() {
       = distanceToCenterOfGalaxy * 9.461e15 // meters
     let time = distanceToCenterOfGalaxyMeters / speedOfLight
 
-    print("It takes \(time/(60*60*24*365*1000) ) thousand years for light to reach the center of galaxy from Earth.")
+    print("Q3: It takes \(time/(60*60*24*365*1000) ) thousand years for light to reach the center of galaxy from Earth.")
 }
 
 /**
@@ -74,7 +111,7 @@ func q2() {
       = nearestStarDistance * 9.461e15 // meters  
     let spacecraftSpeed = 10000.0 // m/s
     let time = nearestStarDistanceMeters / spacecraftSpeed
-    print("It takes \(time/(60*60*24*365*1000) ) thousand years to reach Earth from the nearest star.")
+    print("Q2: It takes \(time/(60*60*24*365*1000) ) thousand years to reach Earth from the nearest star.")
 
    }
 
@@ -88,7 +125,7 @@ func q1() {
     let nearestStarDistanceMeters 
       = nearestStarDistance * 9.461e15 // meters
     let time = nearestStarDistanceMeters / speedOfLight
-    print("It takes \(time/(60*60*24*365) ) years to reach Earth from the nearest star.")
+    print("Q1: It takes \(time/(60*60*24*365) ) years to reach Earth from the nearest star.")
 }
 
 

@@ -28,7 +28,31 @@ Stefan-Boltzmann law:
     σ = Stefan-Boltzmann constant
     T = temperature
 
-*/
+
+
+
+Light:
+Wavelenght (λ) and frequency (f) are related by the speed of light (c):
+    c = λf
+    c = 3e8 m/s
+    λ = wavelenght in meters
+    f = frequency in Hertz (Hz)
+
+- 10e4 Radio
+- 10e3 Microwave
+- 10e2 Infrared
+- 10e1 Visible
+- 905 LiDAR
+- 700-400nm Red
+- 600-700nm Orange
+- 500-600nm Yellow
+- 400-500nm Green
+- 300-400nm Blue
+- 200-300nm Violet
+- 10e0 Ultraviolet
+- 10e-1 X-ray
+- 10e-2 Gamma ray
+- 10e-3 Cosmic ray
 
 
 

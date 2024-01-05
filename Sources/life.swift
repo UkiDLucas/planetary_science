@@ -63,4 +63,26 @@ Rare elements:
 - berillium
 - boron
 
+Prokaryotes
+- simple cells, bacteria, archaea
+
+Eukaryotes:
+- complex cells, plants, animals, fungi, protists
+- has mitochondria
+
+potato starch
+
+Atmosphere would not contain oxygen if there was no life on Earth.
+methane is also a signature of life. Archaea produce methane.
+inside guts, solid rocks, etc.
+CO2 + 4H2 -> CH4 + 2H2O
+Methane can be completely destroyed in 300 years.
+Polution from telluric lines Zahnle, et al. 2011
+https://en.wikipedia.org/wiki/Telluric_contamination
+
+Curiosity rover had Tunable Laser Sectometer (TLS) to measure methane.
+
+
+
+
 */

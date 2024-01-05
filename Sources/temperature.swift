@@ -38,23 +38,47 @@ Wavelenght (λ) and frequency (f) are related by the speed of light (c):
     λ = wavelenght in meters
     f = frequency in Hertz (Hz)
 
-- 10e4      Hz  Radio
-- 10e3      Hz  Microwave
-- 10e2      Hz  Infrared
-- 1550      nm  Infrared LiDAR
-- 905       nm  Infrared LiDAR
-- 10e1      Hz  Visible
-- 700-400   nm  Red
-- 600-700   nm  Orange
-- 500-600   nm  Yellow
-- 400-500   nm  Green
-- 300-400   nm  Blue
-- 200-300   nm  Violet
-- 10e0      Hz  Ultraviolet
-- 10e-1     Hz  X-ray
-- 10e-2     Hz  Gammaray
-- 10e-3     Hz  Cosmicray
+nm (billions of a meter) is a common unit of wavelenght for light.
+    1 nm = 1e-9 m
 
+        (f)         (λ)     (description)
+1.0     10e00 Hz    10e8 m  elephants hear 1Hz
+2.0     10e01 Hz            Lowest sound human can hear 20Hz
+2.6163  10e02 Hz    10e6 m  C note on piano is 261.63 Hz
+8.0     10e03 Hz    10e5 m  whales can hear 30Hz to 8kHz (8 octaves)
+2.0     10e04 Hz    10e4 m  Highest sound human can hear 20,000 Hz
+        10e04 Hz            RADIO
+2.0     10e05 Hz            echolocation bats can hear 100kHz to 200kHz  
+2.79    10e05 Hz    10e2 m  AM Longwave radio 153 kHz and 279 kHz
+ 
 
+        10e06 Hz            Microwave
+        10e08 Hz    10e0 m  FM Radio
+        10e09 Hz            Radar    
+        10e10 Hz    10e-2   Radar
+        10e11 Hz    10e-3 m Radar
+        10e12 Hz    10e-4 m Radar
+        10e13 Hz    10e-4 m Radar
+        10e14 Hz    10e-6 m Infrared
+                            1550nm  Infrared LiDAR
+                            905 nm  Infrared LiDAR
+        10e14 Hz            Visible Light
+4.3     10e14 Hz            700-400 nm  Red
+4.8     10e14 Hz            600-700 nm  Orange
+5.1     10e14 Hz            600-700 nm  Orange
+                            500-600 nm  Yellow
+                            400-500 nm  Green
+                            300-400 nm  Blue
+                            200-300 nm  Violet
+        10e15 Hz            Ultraviolet
+        10e16 Hz  10e-08m   X-ray
+        10e17 Hz  10e-09m   X-ray
+        10e18 Hz  10e-10m   X-ray
+        10e19 Hz  10e-11m   Gammaray
+        10e20 Hz  10e-12m   Gammaray
+        10e21 Hz  10e-13m   Gammaray
+        10e22 Hz  10e-14m   Gammaray
+        10e23 Hz  10e-15m   Gammaray
+        10e24 Hz  10e-16m   Cosmicray
 
 */

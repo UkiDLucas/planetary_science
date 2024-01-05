@@ -47,12 +47,13 @@ nm (billions of a meter) is a common unit of wavelenght for light.
 2.6163  10e02 Hz    10e6 m  C note on piano is 261.63 Hz
 8.0     10e03 Hz    10e5 m  whales can hear 30Hz to 8kHz (8 octaves)
 2.0     10e04 Hz    10e4 m  Highest sound human can hear 20,000 Hz
+2.0     10e05 Hz    10e3 m  dolphins can hear 2Hz to 200kHz
         10e04 Hz            RADIO
 2.0     10e05 Hz            echolocation bats can hear 100kHz to 200kHz  
 2.79    10e05 Hz    10e2 m  AM Longwave radio 153 kHz and 279 kHz
  
 
-        10e06 Hz            Microwave
+2.4     10e06 Hz            Microwave 2.45 GHz
         10e08 Hz    10e0 m  FM Radio
         10e09 Hz            Radar    
         10e10 Hz    10e-2   Radar

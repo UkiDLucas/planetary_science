@@ -6,8 +6,8 @@ final class Earth: AstronomicalBody
         super.init(
             name:               "Earth", 
             distanceToEarth:    0,          // AU
-            age:                4.603,      // billion (10e9) years
-            mass:               5.97,       // x 10^24 kilograms(kg)
+            age:                4.603,      // billion (9 zeros) years
+            mass:               5.97e+24,   // kilograms(kg)
             radius:             6.371,      // million m
             temperature:        288,        // Kelvin(K)
             luminocity:         1.87       // x 10e+17 Watts

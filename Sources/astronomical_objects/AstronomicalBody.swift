@@ -46,8 +46,8 @@ class AstronomicalBody {
     func printInfo() {
         print("Name:", name)
         print("- Distance to Earth is", distanceToEarth, " AU.")
-        print("- Age is", age, "billion (10e9) years.")
-        print("- Mass is", mass, "octillion (10e27) metric tons, or 10e30 kg")
+        print("- Age is", age, "billion (9 zeros) years.")
+        print("- Mass is", mass, "kilograms(kg)")
         print("- Radius is", radius, "million (10e6) m")
         print("- Surface temperature is", temperature, " K.")
     }

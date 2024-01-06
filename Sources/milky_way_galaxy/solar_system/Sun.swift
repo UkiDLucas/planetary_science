@@ -8,7 +8,7 @@ final class Sun: AstronomicalBody {
             name:               "Sun", 
             distanceToEarth:    1.0,        // AU
             age:                4.603,      // billion (10e9) years
-            mass:               1.989,      // octillion (10e27) metric tons. 10e30 kg
+            mass:               1.989e+27,  // octillion (10e27) metric tons. 10e30 kg
             radius:             696.265,    // million m
             temperature:        5778,       // K
             luminocity:         382.8e24    // septillion W

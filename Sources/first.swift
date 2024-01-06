@@ -14,14 +14,15 @@ struct FigletTool {
   static func main() {
     Figlet.say("Hello, Solar System!")
     let Sun = Sun()
-    print(" Sun is  \(Sun.age) years old.")
-    print(" Sun's distance to Earth is  \(Sun.distanceToEarth) km.")
-    q1()
-    q2()
-    q3()
-    q4()
-    q5()
-    q6()
+    Sun.printInfo()
+    //print(" Sun is  \(Sun.age) years old.")
+    // print(" Sun's distance to Earth is  \(Sun.distanceToEarth) km.")
+    // q1()
+    // q2()
+    // q3()
+    // q4()
+    // q5()
+    // q6()
   }
 }
 

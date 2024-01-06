@@ -1,21 +1,32 @@
 
 import Foundation
 
-class Sun {
+final class Sun: star {
 
-    // Constants
+    init() {
+        super.init(
+            name:           "Sun", 
+            distanceToEarth: 1.0, 
+            age:            4.603e9,   // years
+            mass:           1.989e30,  // kg
+            radius:         696_265_000, // m
+            temperature:    5778,      // K
+            luminocity:     3.828e26   // W
+        )
+    }
 
-    let earthMass       = 1.989e30  // kg
-    let sunMass         = 5.972e24  // kg
-    let gravity         = 274.0     // m/s²
-    let age             = 4.603e9   // years
-    let distanceToEarth = 149.6e6   // km
+    override func printInfo() {
+        print("Our Sun info.")
+        super.printInfo()
+        print("- .. and it is yellow!")
+    }
 
-        init() {
-            //self.age             = age
-        }
+    //let earthMass       = 1.989e30  // kg
+    //let gravity         = 274.0     // m/s²
+    //let age             = 4.603e9   // years
+    //let distanceToEarth = 149.6e6   // km
 }
-
+ 
 
 
 // class planet {

@@ -116,7 +116,34 @@ Surface of a sphere is 4πr^2
     S = surface
     r = radius
 
-
+How much energy is emited by the Sun?
+    T = 5778K // sun surface temperature
+    R = 696_265_000 m // sun radius
+    L = 4πR^2 * σT^4
+    L = 4π(6.957e8)^2 * 5.670374419e-8 * (5778)^4
+    L = 3.828e26 W
+    L = 3.828e26 J/s
+    L = 3.828e26 J/s * 60 s/min * 60 min/hr * 24 hr/day * 365.25 days/yr
+    L = 1.205e34 J/yr
+    L = 1.205e34 J/yr * 1e-7 M☉/J
+    L = 1.205e27 M☉/yr
+    L = 1.205e27 M☉/yr * 1e6 M☉/M☉
+    L = 1.205e33 M☉/yr
+    L = 1.205e33 M☉/yr * 1e9 yr/Gyr
+    L = 1.205e42 M☉/Gyr
+    L = 1.205e42 M☉/Gyr * 1e-6 Gyr/yr
+    L = 1.205e36 M☉/yr
+    L = 1.205e36 M☉/yr * 1e-3 Gyr/yr
+    L = 1.205e33 M☉/yr
+    L = 1.205e33 M☉/yr * 1e-3 Gyr/yr
+    L = 1.205e30 M☉/yr
+    L = 1.205e30 M☉/yr * 1e-3 Gyr/yr
+    L = 1.205e27 M☉/yr
+    L = 1.205e27 M☉/yr * 1e-3 Gyr/yr
+    L = 1.205e24 M☉/yr
+    L = 1.205e24 M☉/yr * 1e-3 Gyr/yr
+    L = 1.205e21 M☉/yr
+    L = 1.205e21 M☉/yr
 
 
 */

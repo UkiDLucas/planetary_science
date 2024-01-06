@@ -2,23 +2,23 @@
 import Foundation
 
 final class Sun: star {
-
+    
     init() {
         super.init(
-            name:           "Sun", 
-            distanceToEarth: 1.0, 
-            age:            4.603e9,   // years
-            mass:           1.989e30,  // kg
-            radius:         696_265_000, // m
-            temperature:    5778,      // K
-            luminocity:     3.828e26   // W
+            name:               "Sun", 
+            distanceToEarth:    1.0,        // AU
+            age:                4.603,      // billion (10e9) years
+            mass:               1.989,      // octillion (10e27) metric tons. 10e30 kg
+            radius:             696.265,    // million m
+            temperature:        5778,       // K
+            luminocity:         382.8e24    // septillion W
         )
     }
 
     override func printInfo() {
         print("Our Sun info.")
         super.printInfo()
-        print("- .. and it is yellow!")
+        print("- .. and", super.name ,"is white, not yellow!")
     }
 
     //let earthMass       = 1.989e30  // kg

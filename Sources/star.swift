@@ -4,15 +4,25 @@ import Foundation
 
 class star {
 
-    private var name:               String
+    let name:               String
     
-    /** 1 AU = 149.6e6 km */
-    private var distanceToEarth:    Double
-    private var age:                Double
-    private var mass:               Double // 10e30 kg
-    private var radius:             Double // 10e9 m
-    private var temperature:        Double // K 
-    private var luminocity:         Double // 10e26 W
+    /** unit: AU = 149.6e9 m */
+    let distanceToEarth:    Double
+    
+    /** unit: billion years */
+    let age:                Double
+
+    /** unit: 10e30 kg kilogram */
+    let mass:               Double // 10e30 kg
+
+    /** unit: billion 10e9 m meters */
+    let radius:             Double // 10e9 m
+
+    /** unit: K */
+    let temperature:        Double // K 
+
+    /** unit: 10e26 Watts */
+    let luminocity:         Double // 10e26 W
 
     /** Initialize your lucky star. */
     init(name: String, 
@@ -36,9 +46,9 @@ class star {
     func printInfo() {
         print("- Star's name", name)
         print("- Distance to Earth is", distanceToEarth, " AU.")
-        print("- Age is", age, " 10e6 years.")
-        print("- Mass is", mass, " 10e30 kg.")
-        print("- Radius is", radius, " 10e9 m")
+        print("- Age is", age, "billion (10e9) years.")
+        print("- Mass is", mass, "octillion (10e27) metric tons, or 10e30 kg")
+        print("- Radius is", radius, "million (10e6) m")
         print("- Surface temperature is", temperature, " K.")
     }
 }

@@ -1,7 +1,7 @@
 
 import Foundation
 
-final class Sun: star {
+final class Sun: AstronomicalBody {
     
     init() {
         super.init(

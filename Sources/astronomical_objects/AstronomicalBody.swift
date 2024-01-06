@@ -2,7 +2,7 @@
 
 import Foundation
 
-class star {
+class AstronomicalBody {
 
     let name:               String
     
@@ -44,7 +44,7 @@ class star {
     }
 
     func printInfo() {
-        print("- Star's name", name)
+        print("Name:", name)
         print("- Distance to Earth is", distanceToEarth, " AU.")
         print("- Age is", age, "billion (10e9) years.")
         print("- Mass is", mass, "octillion (10e27) metric tons, or 10e30 kg")

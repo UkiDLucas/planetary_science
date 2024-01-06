@@ -58,7 +58,7 @@ class star {
     */
     func calculateSurfaceArea() -> Double {
         let sphere = Sphere(radius: radius)
-        let area = sphere.calculateSurfaceArea() / 1_000_000
+        let area = sphere.calculateSurfaceArea() / 1_000_000.0
         return area
     }
 }

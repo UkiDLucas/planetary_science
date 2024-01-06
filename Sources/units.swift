@@ -29,11 +29,11 @@ let trillion = 1_000_000_000_000 // 12 zeros
 // Quadrillion       15 zeros
 // Quintillion       18 zeros
 // Sextillion        21 zeros 
-// Septillion        24 zeros
+// Septillion        24 zeros, or yotta (Y)
 // Octillion         27 zeros
 // Nonillion         30 zeros
 // Decillion         33 zeros
-// Undecillion       26 zeros
+// Undecillion       36 zeros
 // Duodecillion      39 zeros
 // Tredecillion      42 zeros
 // Quattuordecillion 45 zeros

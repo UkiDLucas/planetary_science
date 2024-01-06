@@ -82,4 +82,29 @@ nm (billions of a meter) is a common unit of wavelenght for light.
         10e23 Hz  10e-15m   Gammaray
         10e24 Hz  10e-16m   Cosmicray
 
+
+
+Black body spectrum:
+- Blue giant is emmiting visible light and UV light     30,000K
+- Sun is emmiting visible light and UV light            10,000K
+- Red giant is emmiting infrared light                  3,000K
+- Venus is emmiting infrared light                      740K
+- Mercury is emmiting infrared light                    440K
+- Earth is emmiting infrared (~10 microns) light        300K
+- Moon is emmiting infrared light                       270K
+- Mars is emmiting infrared light                       210K
+- Saturn is emmiting infrared light                     150K
+- Neptune is emmiting infrared light                    60K
+- Pluto is emmiting infrared light                      40K
+
+Circumference of a circle is 2πr
+    C = 2πr
+    C = circumference
+    r = radius  
+Surface of a sphere is 4πr^2
+    S = 4πr^2
+    S = surface
+    r = radius
+
+
 */

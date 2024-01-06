@@ -1,9 +1,8 @@
 import Foundation // pow(), Double.pi
-
 import Figlet
 
 @main
-struct FigletTool {
+struct Main {
   static func main() {
     Figlet.say("Hello, Solar System!")
     let Sun = Sun()

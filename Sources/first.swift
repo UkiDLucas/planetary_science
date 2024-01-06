@@ -14,6 +14,7 @@ struct FigletTool {
     q4()
     q5()
     q6()
+    q7(Sun: Sun)
   }
 }
 
@@ -44,6 +45,16 @@ struct FigletTool {
 // Vigintillion      63 zeros
 // googol            100 zeros
 // Centillion        303 zeros
+
+
+
+func q7(Sun: Sun){
+    let sunDisk = Circle(radius: Sun.radius)
+    let area = sunDisk.calculateArea()/1_000_000.0
+    print("Q7: Area of the Sun's disk: \(area) quadrillion (15 zeros) square meters.")
+}
+
+
 
 /**
 If each galaxy contains a trillion stars, 

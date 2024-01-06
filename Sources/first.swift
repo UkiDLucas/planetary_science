@@ -15,6 +15,8 @@ struct FigletTool {
     q5()
     q6()
     q7(Sun: Sun)
+    let area = q8(Sun: Sun)
+    print(area)
   }
 }
 
@@ -25,7 +27,7 @@ struct FigletTool {
 // Hundred thousand  5 zeros   = 100,000
 // Million           6 zeros   = 1,000,000
 // Billion           9 zeros   = 1,000,000,000
-// Trillion          12 zeros  = 1,000,000,000,000
+let trillion = 1_000_000_000_000 // 12 zeros  
 // Quadrillion       15 zeros
 // Quintillion       18 zeros
 // Sextillion        21 zeros 
@@ -47,6 +49,17 @@ struct FigletTool {
 // Centillion        303 zeros
 
 
+/** How much the sun radiates? 
+Calculate using */
+
+func q9
+
+func q8(Sun: Sun) -> Double{
+    let sunSphere = Sphere(radius: Sun.radius)
+    let area = sunSphere.calculateSurfaceArea() / 1_000_000
+    print("Q8: Area of the Sun's sphere: \(area) trillion (12 zeros) qubic meters.")
+    return area
+}
 
 func q7(Sun: Sun){
     let sunDisk = Circle(radius: Sun.radius)

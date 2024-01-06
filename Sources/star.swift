@@ -12,10 +12,10 @@ class star {
     /** unit: billion years */
     let age:                Double
 
-    /** unit: 10e30 kg kilogram */
+    /** unit: nonillion (30 zeros) kilograms (kg) */
     let mass:               Double // 10e30 kg
 
-    /** unit: billion 10e9 m meters */
+    /** unit: million (6 zeros) meters (m) */
     let radius:             Double // 10e9 m
 
     /** unit: K */
@@ -50,5 +50,15 @@ class star {
         print("- Mass is", mass, "octillion (10e27) metric tons, or 10e30 kg")
         print("- Radius is", radius, "million (10e6) m")
         print("- Surface temperature is", temperature, " K.")
+    }
+
+    /** Calculate the surface area of the star. 
+    @param radius: radius of the star in million (10e6) meters (m)
+    @return area: surface area of the star in million (10e6) square meters (m^2)
+    */
+    func calculateSurfaceArea() -> Double {
+        let sphere = Sphere(radius: radius)
+        let area = sphere.calculateSurfaceArea() / 1_000_000
+        return area
     }
 }

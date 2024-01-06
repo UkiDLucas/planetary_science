@@ -106,10 +106,9 @@ is proportional to the fourth power of the temperature:
     σ = Stefan-Boltzmann constant = 5.670374419e-8 W/(m^2 K^4)
     T = temperature
 
-Circumference of a circle is 2πr
-    C = 2πr
-    C = circumference
-    r = radius  
+    let sunDisk = Circle(radius: Sun.radius)
+    let area = sunDisk.calculateArea()/1_000_000.0
+    print("Q7: Area of the Sun's disk: \(area) quadrillion (15 zeros) square meters.") 
 
 Surface of a sphere is 4πr^2
     S = 4πr^2

@@ -3,15 +3,30 @@
 import Foundation
 
 class star {
+
     private var name:               String
-    private var distanceToEarth:    Double // AU
-    private var age:                Double // 10e6 years
+    
+    /** 1 AU = 149.6e6 km */
+    private var distanceToEarth:    Double
+    private var age:                Double
     private var mass:               Double // 10e30 kg
     private var radius:             Double // 10e9 m
     private var temperature:        Double // K 
 
-    init(name: String) {
+    /** Initialize your lucky star. */
+    init(name: String, 
+        distanceToEarth: Double, 
+        age: Double, 
+        mass: Double, 
+        radius: Double, 
+        temperature: Double ) 
+    {
         self.name = name
+        self.distanceToEarth = distanceToEarth
+        self.age = age
+        self.mass = mass
+        self.radius = radius
+        self.temperature = temperature
     }
 
     func printInfo() {

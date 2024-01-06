@@ -53,8 +53,8 @@ class star {
     }
 
     /** Calculate the surface area of the star. 
-    @param radius: radius of the star in million (10e6) meters (m)
-    @return area: surface area of the star in million (10e6) square meters (m^2)
+    - @param radius: radius of the star in million (6 zeros) meters (m)
+    - @return area: surface area of the star in trillion (12 zeros) square meters (m^2)
     */
     func calculateSurfaceArea() -> Double {
         let sphere = Sphere(radius: radius)

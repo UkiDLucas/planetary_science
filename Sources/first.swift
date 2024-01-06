@@ -52,12 +52,10 @@ let trillion = 1_000_000_000_000 // 12 zeros
 /** How much the sun radiates? 
 Calculate using */
 
-func q9
 
 func q8(Sun: Sun) -> Double{
-    let sunSphere = Sphere(radius: Sun.radius)
-    let area = sunSphere.calculateSurfaceArea() / 1_000_000
-    print("Q8: Area of the Sun's sphere: \(area) trillion (12 zeros) qubic meters.")
+    let area = Sun.calculateSurfaceArea()
+    print("Q8: Area of the Sun's sphere: \(area) trillion (12 zeros) square meters.")
     return area
 }
 

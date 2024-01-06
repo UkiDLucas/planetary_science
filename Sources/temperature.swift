@@ -96,12 +96,12 @@ Stefan-Boltzmann law:
 The total energy emited by a black body 
 is proportional to the fourth power of the temperature:
     E = σT^4
-    E = energy
+    E = energy (flux)
     T = temperature
     S = surface of the sphere
     L = S * E
     L = 4πR^2 * σT^4
-    L = luminocity
+    L = luminocity (surface area of a sphere)(flux) = S * E
     R = radius
     σ = Stefan-Boltzmann constant = 5.670374419e-8 W/(m^2 K^4)
     T = temperature
